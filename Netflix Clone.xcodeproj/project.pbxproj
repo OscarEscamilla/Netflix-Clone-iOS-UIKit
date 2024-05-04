@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DC643832BE6B24900381456 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC643822BE6B24900381456 /* CollectionViewTableViewCell.swift */; };
 		5DD6CD8A2A819C9A008E09BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CD892A819C9A008E09BE /* AppDelegate.swift */; };
 		5DD6CD8C2A819C9A008E09BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CD8B2A819C9A008E09BE /* SceneDelegate.swift */; };
 		5DD6CD8E2A819C9A008E09BE /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CD8D2A819C9A008E09BE /* MainTabBarViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DC643822BE6B24900381456 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		5DD6CD862A819C9A008E09BE /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD6CD892A819C9A008E09BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD6CD8B2A819C9A008E09BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D96848B2BADFAD10044BBED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DC643822BE6B24900381456 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D96848C2BADFAD70044BBED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5D96848D2BADFAE30044BBED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D96848E2BADFB130044BBED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D96848F2BADFB200044BBED /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		5DD6CD7D2A819C9A008E09BE = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +100,11 @@
 		5DD6CD882A819C9A008E09BE /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				5D96848F2BADFB200044BBED /* Managers */,
+				5D96848E2BADFB130044BBED /* Resources */,
+				5D96848D2BADFAE30044BBED /* Models */,
+				5D96848C2BADFAD70044BBED /* ViewModels */,
+				5D96848B2BADFAD10044BBED /* Views */,
 				5DECAAEA2A81A1E800BFA85F /* Controllers */,
 				5DD6CD892A819C9A008E09BE /* AppDelegate.swift */,
 				5DD6CD8B2A819C9A008E09BE /* SceneDelegate.swift */,
@@ -112,7 +155,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					5DD6CD852A819C9A008E09BE = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -159,6 +202,7 @@
 				5DECAAF22A81A31500BFA85F /* DownloadsViewController.swift in Sources */,
 				5DD6CD8A2A819C9A008E09BE /* AppDelegate.swift in Sources */,
 				5DD6CD8C2A819C9A008E09BE /* SceneDelegate.swift in Sources */,
+				5DC643832BE6B24900381456 /* CollectionViewTableViewCell.swift in Sources */,
 				5DECAAEE2A81A2D500BFA85F /* UpcomingViewController.swift in Sources */,
 				5DECAAEC2A81A2A600BFA85F /* HomeViewController.swift in Sources */,
 			);
@@ -214,6 +258,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -274,6 +319,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
