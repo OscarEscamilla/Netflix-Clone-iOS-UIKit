@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0B3A742BED1AD1006B9503 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B3A732BED1AD1006B9503 /* APICaller.swift */; };
+		5D28F2A92BF2DD98003349C5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D28F2A82BF2DD98003349C5 /* Movie.swift */; };
+		5D28F2AB2BF2E98A003349C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D28F2AA2BF2E98A003349C5 /* Extensions.swift */; };
+		5D7DAB542BEA726500B1023A /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DAB532BEA726500B1023A /* HeroHeaderUIView.swift */; };
 		5DC643832BE6B24900381456 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC643822BE6B24900381456 /* CollectionViewTableViewCell.swift */; };
 		5DD6CD8A2A819C9A008E09BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CD892A819C9A008E09BE /* AppDelegate.swift */; };
 		5DD6CD8C2A819C9A008E09BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6CD8B2A819C9A008E09BE /* SceneDelegate.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D0B3A732BED1AD1006B9503 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		5D28F2A82BF2DD98003349C5 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5D28F2AA2BF2E98A003349C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5D7DAB532BEA726500B1023A /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		5DC643822BE6B24900381456 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		5DD6CD862A819C9A008E09BE /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD6CD892A819C9A008E09BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5DC643822BE6B24900381456 /* CollectionViewTableViewCell.swift */,
+				5D7DAB532BEA726500B1023A /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -63,6 +72,7 @@
 		5D96848D2BADFAE30044BBED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5D28F2A82BF2DD98003349C5 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -70,6 +80,7 @@
 		5D96848E2BADFB130044BBED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5D28F2AA2BF2E98A003349C5 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -77,6 +88,7 @@
 		5D96848F2BADFB200044BBED /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				5D0B3A732BED1AD1006B9503 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -200,10 +212,14 @@
 				5DECAAF02A81A2F300BFA85F /* SearchViewController.swift in Sources */,
 				5DD6CD8E2A819C9A008E09BE /* MainTabBarViewController.swift in Sources */,
 				5DECAAF22A81A31500BFA85F /* DownloadsViewController.swift in Sources */,
+				5D0B3A742BED1AD1006B9503 /* APICaller.swift in Sources */,
+				5D7DAB542BEA726500B1023A /* HeroHeaderUIView.swift in Sources */,
 				5DD6CD8A2A819C9A008E09BE /* AppDelegate.swift in Sources */,
 				5DD6CD8C2A819C9A008E09BE /* SceneDelegate.swift in Sources */,
+				5D28F2AB2BF2E98A003349C5 /* Extensions.swift in Sources */,
 				5DC643832BE6B24900381456 /* CollectionViewTableViewCell.swift in Sources */,
 				5DECAAEE2A81A2D500BFA85F /* UpcomingViewController.swift in Sources */,
+				5D28F2A92BF2DD98003349C5 /* Movie.swift in Sources */,
 				5DECAAEC2A81A2A600BFA85F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
